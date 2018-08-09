@@ -21,4 +21,5 @@ function destructivelyDeleteFromObjectByKey(object, key) {
   var clone = {object:key};
   delete clone.key;
   return clone;
+  var noResults = {};
 }
