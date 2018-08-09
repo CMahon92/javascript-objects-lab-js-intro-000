@@ -19,7 +19,7 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
 
 function destructivelyDeleteFromObjectByKey(object, key) {
   var clone = {object:['key']};
-  var expectUndefined = {};
+  var Undefined = {};
   delete clone.key;
   return clone;
 }
